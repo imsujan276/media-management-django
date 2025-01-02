@@ -16,12 +16,14 @@
     </script>
 </head>
 <body>
+    <!-- Loader -->
     <div id="loadingSpinner" class="d-none">
         <div class="spinner-border" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
 
+    <!-- Main Content -->
     <div class="container">
         <input type="hidden" id="csrfToken" value="{{ csrf_token }}">
         <h2 class="my-4 text-center">{{ APP_NAME }}</h2>
